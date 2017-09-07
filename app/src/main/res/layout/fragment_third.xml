@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/dim_10"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seus Dados"
+            android:id="@+id/textView5"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="@dimen/tex_size_xxxxlarge"
+            android:textStyle="normal"
+            android:textColor="@color/green"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/nome"
+            android:layout_gravity="center_horizontal"
+            android:hint="Nome ou Apelido"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="@dimen/tex_size_xxxlarge"
+            android:imeOptions="actionNext"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:singleLine="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/email"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/tex_size_xxxlarge"
+            android:hint="e-mail"
+            android:fontFamily="sans-serif-thin"
+            android:imeOptions="actionNext"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tex_size_xxlarge"
+                android:fontFamily="sans-serif-thin"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:id="@+id/country_code"
+                android:textSize="@dimen/tex_size_xxxxlarge"
+                android:hint="Code"
+                android:maxLength="3"
+                android:fontFamily="sans-serif-thin"
+                android:imeOptions="actionNext"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:id="@+id/area_code"
+                android:textSize="@dimen/tex_size_xxxxlarge"
+                android:hint="DDD"
+                android:maxLength="3"
+                android:fontFamily="sans-serif-thin"
+                android:imeOptions="actionNext"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:id="@+id/phone"
+                android:textSize="@dimen/tex_size_xxxxlarge"
+                android:hint="Telefone"
+                android:fontFamily="sans-serif-thin"
+                android:imeOptions="actionDone"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right" >
+
+            <TextView
+                android:id="@+id/btn_ok"
+                android:layout_width="@dimen/dim_200"
+                android:layout_height="@dimen/dim_40"
+                android:text="Ok, vamos começar"
+                android:clickable="true"
+                android:textColor="@color/green"
+                android:textSize="@dimen/tex_size_xxlarge"
+                android:background="@drawable/long_click_effect_black"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.percent.PercentRelativeLayout>

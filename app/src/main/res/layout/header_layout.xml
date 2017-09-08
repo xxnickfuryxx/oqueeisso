@@ -17,27 +17,15 @@
 
         <ImageView
             android:id="@+id/btn_menu"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/dim_50"
             android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dim_10"
             android:src="@drawable/oqueeisso_logo"
             android:layout_centerVertical="true"
             android:layout_alignParentStart="true"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/app_name"
-            android:id="@+id/textView2"
-            android:paddingLeft="@dimen/dim_10"
-            android:layout_centerVertical="true"
-            android:layout_toEndOf="@+id/btn_menu"
-            android:textColor="@android:color/white"
-            android:fontFamily="sans-serif-thin"
-            android:gravity="left|center"/>
-
         <ImageView
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/dim_30"
             android:layout_height="match_parent"
             android:id="@+id/btn_filter"
             android:layout_alignParentEnd="true"
@@ -45,6 +33,18 @@
             android:layout_marginRight="@dimen/dim_10"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/app_name"
+            android:id="@+id/textView2"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
 
     </RelativeLayout>
     <!--View

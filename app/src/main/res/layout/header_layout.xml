@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:background="@android:color/black">
 
-    <android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/root"
         android:layout_width="match_parent"
@@ -19,7 +19,6 @@
             android:id="@+id/btn_menu"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_widthPercent="12%"
             android:src="@drawable/oqueeisso_logo"
             android:layout_centerVertical="true"
             android:layout_alignParentStart="true"/>
@@ -27,7 +26,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_widthPercent="75%"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/app_name"
             android:id="@+id/textView2"
@@ -41,7 +39,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_widthPercent="7%"
             android:id="@+id/btn_filter"
             android:layout_alignParentEnd="true"
             android:src="@drawable/ic_filter_list_white_18dp"
@@ -49,7 +46,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"/>
 
-    </android.support.percent.PercentRelativeLayout>
+    </RelativeLayout>
     <!--View
         android:layout_width="match_parent"
         android:layout_height="10dp"

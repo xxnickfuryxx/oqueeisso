@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/root"
     android:layout_width="match_parent"
@@ -183,8 +183,7 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/header"
         android:layout_marginTop="@dimen/dim_20"
-        android:visibility="visible"
-        app:layout_heightPercent="50%">
+        android:visibility="visible">
 
             <SurfaceView
                 android:id="@+id/surf_resource"
@@ -204,15 +203,13 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/header"
         android:layout_marginTop="@dimen/dim_20"
-        android:visibility="gone"
-        app:layout_heightPercent="50%">
+        android:visibility="gone">
 
         <ImageSwitcher
             android:id="@+id/img_resource"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="visible"
-            app:layout_heightPercent="50%"
             />
 
         <ImageButton
@@ -245,4 +242,4 @@
 
 
 
-</android.support.percent.PercentRelativeLayout>
+</RelativeLayout>

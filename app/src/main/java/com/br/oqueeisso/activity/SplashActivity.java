@@ -40,6 +40,8 @@ public class SplashActivity extends Activity {
         context = this;
         activity = this;
 
+        System.out.println("qwerty");
+
         try {
             Utils.createFolder();
         } catch (IOException e) {

@@ -41,6 +41,7 @@ public class SplashActivity extends Activity {
         activity = this;
 
         System.out.println("teste_conflito");
+        System.out.println("qwerty");
 
         try {
             Utils.createFolder();

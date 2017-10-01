@@ -1,1 +1,1 @@
-include ':app', ':SlidingDrawer'
+include ':app', ':SlidingDrawer', ':appBrasil'
